@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #730a42;
+
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+.menu_navegação{
+    list-style-type:none;
+    padding: 1.7rem;
+    margin-left: 15%;
+    
+      
+}
+.cabeçalho{
+    
+    background-color: #630a3a ;
+    overflow: hidden;
+    border-bottom: 2px solid #700a40;
+    width: 85rem;
+    margin: auto;
+    
+}
+.menu_item{
+    color: white;
+    font-weight: 900;
+    display:inline-block;
+    margin-right: 2.2rem;
+    font-size: 1rem;    
+}
+.botão{
+    display:inline-block;
+    color:#630a3a;
+    background-color: #efc62f;  
+    font-weight: 900;;
+    border-radius: 20px;
+    padding: 0.2rem 0.6rem;
+    text-decoration: none; 
+    float: right;
+    
+}
+.botão2{
+    display:inline-block;
+    color:#efc62f;
+    background-color:#630a3a;  
+    font-weight: 900;;
+    border-radius: 20px;
+    padding: 0.2rem 0.6rem;
+    text-decoration: none; 
+    margin-top: 2rem;
+}
+.intro_container{
+    background-color: #630a3a;
+    overflow: hidden;
+    height: 31rem;
+    width: 85rem;
+    border-bottom: 2px solid #700a40;
+    margin:auto;
+    
+    
+}
+.picture{
+    max-width: 35rem;
+    float: right;
+    margin-right: 8rem;
+    margin-bottom: 1rem;
+     
+}
+.intro_info{
+
+    display: inline-block;
+    margin: 8rem 0 0 4rem ;
+}
+#title1{
+    color:#efc62f;
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+#title2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+.combos{
+ 
+    width: 85rem;
+    margin:auto;
+    text-align: center;
+    border-bottom: 2px solid #630a3a;
+    background-color: white;
+    
+
+}
+.sobre_combos{
+    color: #630a3a;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-top:4rem;
+    margin-bottom: 5rem;
+    
+}
+.combo_option{
+   color:white;
+    
+
+}
+.combo_type{
+    box-sizing: border-box;
+    list-style-type: none;
+    display: inline-block;
+    color:white;
+    font-family: 'Cookie', cursive  , sans-serif;
+    font-size: 2rem;
+    background-color: #630a3a;
+    margin-right: 1rem;
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    line-height: 80px;
+
+}
+.copo{
+    width: 150px;
+    display: inline-block;
+}
+
+.serviço_combo{
+    display: inline-block;
+}
+.footer{
+    width: 85rem;
+    height: 10rem;
+    background-color: white;
+    margin: auto;
+}
+.contato{
+    display: inline-block;
+    padding: 0.6rem;
+    margin-left: 9rem;
+    line-height: 1.6rem;
+}
+.contato1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    list-style-type: none;
+}
+.phone{
+    list-style-image: url("../assets/phone_ico.PNG");
+}
+.whatsapp{
+    list-style-image: url("../assets/whatsapp_ico.PNG");
+}
+
+.email{
+    list-style-image: url("../assets/email_ico.PNG");
+}
+.institucional{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1rem;
+    line-height: 1.6rem;
+}
+.institucional1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+.informação{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 2rem;
+    line-height: 1.6rem;
+    
+}
+.informação1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+.onde_encontrar{
+    display: inline-block;
+    margin-left: 3rem;
+    line-height: 1.6rem;
+}
+.onde_encontrar1{
+    font-size: 1.3rem;
+    font-weight: 900;
+    list-style-type: none;
+    padding-bottom: 0.5rem;
+}
+.facebook{
+    border:1px solid black; 
+    border-radius: 10px;
+    background-image: url("../assets/facebook.png");
+    
+}
+.instagram{
+    border:1px solid black; 
+    border-radius: 10px;
+    background-image: url("../assets/instagram.png");
+}
+.youtube{
+    border:1px solid black; 
+    border-radius: 10px;
+    background-image: url("../assets/youtube.png");
+}
+.onde_encontralist{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height:40px;
+    display:inline-block;
+}
